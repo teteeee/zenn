@@ -3,7 +3,7 @@ title: "【無料&簡単に】AdMobの app-ads.txt に対応する【Netlify使�
 emoji: "🏃"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ['Admob','スマホアプリ','Netlify','広告']
-published: true
+published: false
 ---
 # はじめに
 筆者は個人でスマホアプリを開発しています。その中で、Googleの広告をアプリ内に組み込もうと思った際に件題のファイルの取り扱いに苦戦したので備忘を兼ねて本記事を書きました。
