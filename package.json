@@ -1,0 +1,12 @@
+{
+  "name": "zenn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/teteeee/zenn.git",
+  "author": "kenter <ken137bonn@yahoo.co.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "zenn-cli": "^0.1.100"
+  }
+}
