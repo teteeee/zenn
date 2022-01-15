@@ -19,7 +19,7 @@ published: true
 
 ちなみにRakutenRapidAPIサービス提供側は発生した利用料から20%(2022年1月現在)の手数料を受け取ります。
 プランはかなり自由に設定できます。こちらは筆者が設定したプランですが各数値は自分で決めることができました。
-![](/images/rakutenAPI/rakuten1.png)
+![](/images/rakutenapi/rakuten1.png)
 
 このサービスの特徴として、自分が公開しているAPIの入り口は利用者から秘匿化されることも利点の1つだと思います。RakutenRapidAPI上の入り口を経由して自身のAPIがリクエストされます。
 
@@ -36,42 +36,42 @@ https://api.rakuten.net/api-providers
 ## 3. API作成
 ### 3.1 API追加
 ログインしたらプロバイダボードからAPI追加を選択します。
-![](/images/rakutenAPI/rakuten6.png)
+![](/images/rakutenapi/rakuten6.png)
 
 ### 3.2 APIの宛先の設定
 最初のステップとして「BaseURLを追加」→「設定」項目からAPIのベースURLを登録します
-![](/images/rakutenAPI/rakuten2.png)
+![](/images/rakutenapi/rakuten2.png)
 
 ### 3.3 エンドポイントの設定
 次に「エンドポイント」項目からエンドポイントの作成を選択します
-![](/images/rakutenAPI/rakuten3.png)
+![](/images/rakutenapi/rakuten3.png)
 
 ### 3.4 APIの宛先の設定
 次に「エンドポイント」項目からエンドポイントの作成を選択します
 エンドポイントの説明やパラメータの説明などを行います。
-![](/images/rakutenAPI/rakuten4.png)
+![](/images/rakutenapi/rakuten4.png)
 POSTリクエストであれば、パラメータの例を入力します。
 ポイントとして、ここで入力したパラメータは利用を迷っている人がAPIをテストするときに使用されるので、APIの有用性が分かるような値を設定できると良いと思います。
 また、リクエストの言語ごとの例のような項目はRakutenRapidAPIが自動で用意してくれるので自分で何かをする必要はありません。
-![](/images/rakutenAPI/rakuten5.png)
+![](/images/rakutenapi/rakuten5.png)
 
 ### 3.5 API説明情報の設定
 「画像を追加」項目からAPIについての説明を記述します
 自分は全世界向けにしたかったので英語で書いてみました。日本語でも大丈夫です。（一部のAPIを見ると自動翻訳されていそうです）
 ポイントとして、あまり多くは記入できなさそうに見える「概要」欄がAPIを検索したときに見える部分なので実は大事です。ここの記述を頑張るのが良さそうです。
-![](/images/rakutenAPI/rakuten7.png)
+![](/images/rakutenapi/rakuten7.png)
 
 ### 3.6 API説明情報の設定
 最後に「APIを公開する」ページで公開を行います。これでAPIの公開については完了です。
-![](/images/rakutenAPI/rakuten8.png)
+![](/images/rakutenapi/rakuten8.png)
 
 ## 4. 料金プランの設定
 プロバイダボードから料金プランを選択します
-![](/images/rakutenAPI/rakuten9.png)
+![](/images/rakutenapi/rakuten9.png)
 
 プランの追加を選択して料金プランについて設定していきます
 他の方の作成したAPIを見ると、BASICプラントして基本料無料で日別に上限を設けたフリーミアプランを作り、このプランでテストをしてもらって、気に入った人にはPROプラン以降のサブスク契約をしてもらうというパターンが多いように思います。例で出している自分のプランもそれを真似しています。
-![](/images/rakutenAPI/rakuten10.png)
+![](/images/rakutenapi/rakuten10.png)
 
 ## 5. 公開状況の確認
 こちらのページから自分のAPIが検索でヒットするかや、見た目や説明がおかしいところがないかを確認しましょう。
