@@ -7,5 +7,4 @@ published: false
 ---
 npx zenn preview
 励ましてくれるアプリ
-iphon版でexpo44にしてみてキャッシュの問題が解決するか試す
-20220114ipshonのexpo44挑戦したがビルドがうまく行かない。。
+20220117 相互する人を広める自動化
